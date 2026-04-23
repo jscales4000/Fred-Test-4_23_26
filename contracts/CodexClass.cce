@@ -1,0 +1,417 @@
+{
+  "Errors": [],
+  "id": "_codexclass",
+  "name": "CodexClass",
+  "description": "CodexClass seed contract updated from the approved blank boilerplate.",
+  "company": "DN",
+  "client": "TN",
+  "author": "Codex",
+  "version": "1.0.0.0",
+  "schemaVersion": 1,
+  "subContractLinks": [],
+  "subContracts": [],
+  "specifications": [
+    {
+      "Errors": [],
+      "parentId": "_codexclass",
+      "id": "_specmain",
+      "componentId": "_maincomponent",
+      "instanceName": "Main",
+      "numberOfInstances": 1
+    }
+  ],
+  "components": [
+    {
+      "Errors": [],
+      "parentId": "_codexclass",
+      "id": "_maincomponent",
+      "name": "Main",
+      "commands": [
+        {
+          "Errors": [],
+          "name": "PanelOnlineSync",
+          "siblingId": "_fb_panelonline",
+          "dataType": 1,
+          "notes": "Optional digital signal reserved for panel online simulation or sync.",
+          "id": "_cmd_panelonline",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "RoomPowerToggle",
+          "siblingId": "_fb_roompower",
+          "dataType": 1,
+          "notes": "Digital command pulse from the footer room power button.",
+          "id": "_cmd_roompower",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "MasterVolumeUp",
+          "siblingId": "_fb_volumeup",
+          "dataType": 1,
+          "notes": "Digital pulse from the volume up button.",
+          "id": "_cmd_volumeup",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "MasterVolumeDown",
+          "siblingId": "_fb_volumedown",
+          "dataType": 1,
+          "notes": "Digital pulse from the volume down button.",
+          "id": "_cmd_volumedown",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "MasterMuteToggle",
+          "siblingId": "_fb_mutetoggle",
+          "dataType": 1,
+          "notes": "Digital pulse from the mute button.",
+          "id": "_cmd_mutetoggle",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1PcSelect",
+          "siblingId": "_fb_d1pc",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source PC.",
+          "id": "_cmd_d1pc",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1PcExtSelect",
+          "siblingId": "_fb_d1pcext",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source PC Ext.",
+          "id": "_cmd_d1pcext",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1AppleTvSelect",
+          "siblingId": "_fb_d1appletv",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source Apple TV.",
+          "id": "_cmd_d1appletv",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1AirMediaSelect",
+          "siblingId": "_fb_d1airmedia",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source AirMedia.",
+          "id": "_cmd_d1airmedia",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1LaptopSelect",
+          "siblingId": "_fb_d1laptop",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source Laptop.",
+          "id": "_cmd_d1laptop",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1UsbCSelect",
+          "siblingId": "_fb_d1usbc",
+          "dataType": 1,
+          "notes": "Digital command for Display 1 source USB-C.",
+          "id": "_cmd_d1usbc",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display1ActiveSourceSet",
+          "siblingId": "_fb_display1active",
+          "dataType": 2,
+          "notes": "Optional analog companion signal for Display 1 active source feedback.",
+          "id": "_cmd_display1active",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2ActiveSourceSet",
+          "siblingId": "_fb_display2active",
+          "dataType": 2,
+          "notes": "Optional analog companion signal for Display 2 active source feedback.",
+          "id": "_cmd_display2active",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2PcSelect",
+          "siblingId": "_fb_d2pc",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source PC.",
+          "id": "_cmd_d2pc",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2PcExtSelect",
+          "siblingId": "_fb_d2pcext",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source PC Ext.",
+          "id": "_cmd_d2pcext",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2AppleTvSelect",
+          "siblingId": "_fb_d2appletv",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source Apple TV.",
+          "id": "_cmd_d2appletv",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2AirMediaSelect",
+          "siblingId": "_fb_d2airmedia",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source AirMedia.",
+          "id": "_cmd_d2airmedia",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2LaptopSelect",
+          "siblingId": "_fb_d2laptop",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source Laptop.",
+          "id": "_cmd_d2laptop",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        },
+        {
+          "Errors": [],
+          "name": "Display2UsbCSelect",
+          "siblingId": "_fb_d2usbc",
+          "dataType": 1,
+          "notes": "Digital command for Display 2 source USB-C.",
+          "id": "_cmd_d2usbc",
+          "parentId": "_maincomponent",
+          "attributeType": 0
+        }
+      ],
+      "feedbacks": [
+        {
+          "Errors": [],
+          "name": "PanelOnline",
+          "siblingId": "_cmd_panelonline",
+          "dataType": 1,
+          "notes": "Digital header online feedback, simulated until backend is wired.",
+          "id": "_fb_panelonline",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "RoomPowerOn",
+          "siblingId": "_cmd_roompower",
+          "dataType": 1,
+          "notes": "Digital room power feedback.",
+          "id": "_fb_roompower",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "MasterMuted",
+          "siblingId": "_cmd_mutetoggle",
+          "dataType": 1,
+          "notes": "Digital mute feedback.",
+          "id": "_fb_mutetoggle",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1ActiveSource",
+          "siblingId": "_cmd_display1active",
+          "dataType": 2,
+          "notes": "Analog source selection feedback for Display 1, values 1-6.",
+          "id": "_fb_display1active",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2ActiveSource",
+          "siblingId": "_cmd_display2active",
+          "dataType": 2,
+          "notes": "Analog source selection feedback for Display 2, values 1-6.",
+          "id": "_fb_display2active",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "VolumeUpAck",
+          "siblingId": "_cmd_volumeup",
+          "dataType": 1,
+          "notes": "Optional digital acknowledgment for volume up.",
+          "id": "_fb_volumeup",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "VolumeDownAck",
+          "siblingId": "_cmd_volumedown",
+          "dataType": 1,
+          "notes": "Optional digital acknowledgment for volume down.",
+          "id": "_fb_volumedown",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1PcSelected",
+          "siblingId": "_cmd_d1pc",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 PC.",
+          "id": "_fb_d1pc",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1PcExtSelected",
+          "siblingId": "_cmd_d1pcext",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 PC Ext.",
+          "id": "_fb_d1pcext",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1AppleTvSelected",
+          "siblingId": "_cmd_d1appletv",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 Apple TV.",
+          "id": "_fb_d1appletv",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1AirMediaSelected",
+          "siblingId": "_cmd_d1airmedia",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 AirMedia.",
+          "id": "_fb_d1airmedia",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1LaptopSelected",
+          "siblingId": "_cmd_d1laptop",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 Laptop.",
+          "id": "_fb_d1laptop",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display1UsbCSelected",
+          "siblingId": "_cmd_d1usbc",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 1 USB-C.",
+          "id": "_fb_d1usbc",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2PcSelected",
+          "siblingId": "_cmd_d2pc",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 PC.",
+          "id": "_fb_d2pc",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2PcExtSelected",
+          "siblingId": "_cmd_d2pcext",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 PC Ext.",
+          "id": "_fb_d2pcext",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2AppleTvSelected",
+          "siblingId": "_cmd_d2appletv",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 Apple TV.",
+          "id": "_fb_d2appletv",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2AirMediaSelected",
+          "siblingId": "_cmd_d2airmedia",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 AirMedia.",
+          "id": "_fb_d2airmedia",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2LaptopSelected",
+          "siblingId": "_cmd_d2laptop",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 Laptop.",
+          "id": "_fb_d2laptop",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        },
+        {
+          "Errors": [],
+          "name": "Display2UsbCSelected",
+          "siblingId": "_cmd_d2usbc",
+          "dataType": 1,
+          "notes": "Optional discrete feedback for Display 2 USB-C.",
+          "id": "_fb_d2usbc",
+          "parentId": "_maincomponent",
+          "attributeType": 1
+        }
+      ],
+      "specifications": []
+    }
+  ],
+  "allComponentsForAllContracts": []
+}
